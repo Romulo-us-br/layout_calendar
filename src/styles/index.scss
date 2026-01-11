@@ -8,7 +8,8 @@ $transition-speed: 0.5s;
 $columns: 7;
 $rows: 5;
 $hover-offset: 20px;
-$calendario-width: $columns * $cell-size + ($columns - 1) * $gap + ($padding * 2);
+$line: $columns * $cell-size;
+$calendario-width: $line + ($columns - 1) * $gap + ($padding * 2);
 
 body {
   margin: 0;
